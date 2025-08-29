@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RemakePortofolio</title> 
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container" data-aos="fade-up" data-aos-duration="1000">
+            <nav>
+                <div class="logo">Portofolio</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li> 
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li> 
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div> 
+
+        <!-- Hamburger --> 
+              <div class="hamburger" onclick="hamburger()"> 
+                <i class="fa-solid fa-bars"></i>
+              </div>  
+        <!-- Dropdown --> 
+               <div class="dropdown"> 
+        <!-- Hamburger Links -->
+            <div class="hamburger-links"> 
+                <a href="#home">Home</a> 
+                <a href="#about">About</a> 
+                <a href="#skills">Skills</a> 
+                <a href="#testimonials">Testimonials</a> 
+                <a href="#contact">Kontak</a>
+            </div> 
+            <div class="cancel" onclick="cancel()">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+    </header> 
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hello, I'm Mulia Abdullah</h1>
+                <p>Web Developer & UI/UX Designer</p>
+                <a href="#testimonials" class="btn">Lihat Client Saya</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About me</h2>
+                <p>Kenali saya lebih dekat</p>
+            </div>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="assets/src/img/Foto Monyet.png" alt="Foto Profil">
+                </div>
+                <div class="about-text">
+                    <h3>Web Developer</h3>
+                    <p>Saya adalah seorang siswa SMA yang penuh semangat dan rasa ingin tahu tinggi terhadap dunia teknologi. Saya senang mengeksplorasi coding, desain, serta tren digital terbaru.</p>
+                    <p>Dengan semangat belajar yang terus berkembang, saya ingin mengasah keterampilan dan menciptakan karya-karya yang bermanfaat.</p> 
+                    <!-- Social Links -->
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/mulia-abdullah-suryadi-0985b7376/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.youtube.com/channel/UCFL5TbYVJJQo41nY95XXpJQ"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/abdullah_surya_dimana"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Muleeeeeeee"><i class="fa-brands fa-github"></i></a>
+                    </div> 
+                    <a href="#contact" class="btn">Hubungi Saya</a>
+                </div> 
+            </div> 
+        </div>
+    </section> 
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>Skills</h2>
+                <p>Beberapa keahlian saya</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skills-card">
+                    <img src="/assets/src/img/html.png" alt="Skills 1" class="skills-img">
+                    <div class="skills-info">
+                        <h3>Html5</h3>
+                    </div>
+                </div>
+                <div class="skills-card">
+                    <img src="/assets/src/img/css.png" alt="Skills 2" class="skills-img">
+                    <div class="skills-info">
+                        <h3>Css</h3>
+                    </div>
+                </div>
+                <div class="skills-card">
+                    <img src="/assets/src/img/Lightroom.png" alt="Skills 3" class="skills-img">
+                    <div class="skills-info">
+                        <h3>Lightroom</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Testimonials</h2>
+                <p>Beberapa komentar dari client saya</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonials-card">
+                    <img src="/assets/src/img/ThomYorke.png" alt="Client 1" class="testimonials-img">
+                    <div class="testimonials-info">
+                        <h3>Thom Yorke</h3>
+                        <p>"Mulia is a very dedicated and talented student. His coding skills are impressive for his age."</p>
+                    </div>
+                </div>
+                <div class="testimonials-card">
+                    <img src="/assets/src/img/Prabowo.png" alt="Client 2" class="testimonials-img">
+                    <div class="testimonials-info">
+                        <h3>Bapak Prabowo</h3>
+                        <p>“Saya melihat sendiri kinerja ngoding saudara ini. Cepat, rapi, dan hasilnya luar biasa. Saya jarang kagum, tapi kali ini saya harus akui: ini kerja yang patut dihargai. Teruskan perjuanganmu!”</p>
+                    </div>
+                </div>
+                <div class="testimonials-card">
+                    <img src="/assets/src/img/TenHag.png" alt="Client 3" class="testimonials-img">
+                    <div class="testimonials-info">
+                        <h3>Erik ten Hag</h3>
+                        <p>““He is phenomenal. The way he writes code, calm but lethal. His logic is clean, efficient, and he always delivers solutions when the team needs them. I’ve never seen a developer with such determination and vision. He is not only the future of this project… he is the future of technology.””</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Hubungi Saya</h2>
+                <p>Silakan tinggalkan pesan</p>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nama</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Portofolio Mulia. All Rights Reserved.</p> 
+            <div class="social-links-footer">
+                <a href="https://www.linkedin.com/in/mulia-abdullah-suryadi-0985b7376/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.youtube.com/channel/UCFL5TbYVJJQo41nY95XXpJQ"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.instagram.com/abdullah_surya_dimana"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/Muleeeeeeee"><i class="fa-brands fa-github"></i></a>
+            </div> 
+        </div>
+    </footer>
+</body> 
+
+<script>
+    function hamburger() {
+        const navbar = document.querySelector(".dropdown") 
+        navbar.style.transform = "translateY(0px)"
+    } 
+    function cancel() {
+        const navbar = document.querySelector(".dropdown") 
+        navbar.style.transform = "translateY(-500px)"  
+    }
+</script>
+
+<script src="https://kit.fontawesome.com/046af6897e.js" crossorigin="anonymous"></script> 
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+
+<script>
+    AOS.init({offset: 0});
+</script>
+
+</html>
