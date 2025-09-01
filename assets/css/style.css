@@ -175,7 +175,13 @@
             min-width: 300px;
         }  
 
-        /* Social Links */ 
+        /* Social Links */  
+
+        .container .social-links{
+            display: flex; 
+            flex-direction: row; 
+            align-items: center;
+        }
 
         .container .social-links i { 
             width: 3rem; 
@@ -290,11 +296,15 @@
 
         /* Footer */
         footer {
-            background: #333;
+            background-color: #333;
             color: #fff;
             text-align: center;
             padding: 20px 0;
-        } 
+        }
+
+        .social-links-footer i {
+            color: white;
+        }
 
         /* Hamburger */ 
 
@@ -335,13 +345,13 @@
 
         /* Responsive */
         @media (max-width: 768px) {
-            .nav-links {
+            .nav-links{
                 display: none;
             }
 
             .about-content {
                 flex-direction: column;
-            }
+            } 
 
             .about-text {
                 padding: 20px 0;
