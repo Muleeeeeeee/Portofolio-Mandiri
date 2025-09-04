@@ -192,7 +192,8 @@
 
         /* Skills Section */
         .skills {
-            background-color: #f9f9f9;
+            background-color: #f9f9f9; 
+            margin-top: 100px;
         }
 
         .skills-grid {
@@ -232,7 +233,8 @@
 
         /* Testimonials Section */
         .testimonials {
-            background-color: #f9f9f9;
+            background-color: #f9f9f9; 
+            margin-top: 100px;
         }
 
         .testimonials-grid {
