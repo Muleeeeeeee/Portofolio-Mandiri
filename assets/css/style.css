@@ -338,7 +338,8 @@
             justify-content: center; 
             padding: 15px 0; 
             align-items: center; 
-            transition: 0.2s linear;
+            transition: 0.2s linear; 
+            text-shadow: 0 2px 4px black;
         } 
 
         .dropdown .hamburger-links a:hover{
